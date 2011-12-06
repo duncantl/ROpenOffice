@@ -1,0 +1,13 @@
+Package: ROpenOffice
+Version: 0.4-0
+Title: Basic reading of Open Office spreadsheets  and workbooks
+Description: This is a simple start to reading workbooks and spreadsheets from
+  Open Office documents.  Sometime we will incorporate the ideas from the RExcelXML
+  package to be able to read and write workbooks and worksheets and subset
+  the sheets symbolically.
+  The reading of the spread sheets appears to work on simple examples,
+  but may not be necessarily robust.  Examples of where it fails are appreciated.
+Author: Duncan Temple Lang
+Maintainer: Duncan Temple Lang <duncan@r-project.org>
+Depends: Rcompression, XML, methods
+License: BSD

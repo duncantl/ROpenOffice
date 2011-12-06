@@ -1,0 +1,27 @@
+getCellValue =
+  #
+  # Get the cell value or a collection of NAs if this is a number-columns-repeated cell.
+  #
+function(node)
+{
+  n = xmlGetAttr(node, "number-columns-repeated", 0)
+  date = xmlGetAttr(node, "date-value", NA)
+  number = xmlGetAttr(node, "value-type", FALSE)
+  txt =
+      if(!is.na(date)) {
+          date
+      } else {
+          if(xmlSize(node)) {
+              xmlValue(node)
+          } else {
+              as.character(NA)
+          }
+      }
+      if(number == "float") {
+          txt = sub(",", ".", txt)
+      }
+  if(n > 0)
+     rep(txt, n)
+  else
+     txt
+}

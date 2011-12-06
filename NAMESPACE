@@ -1,0 +1,8 @@
+export(read.ods)
+
+export(creator, creationTime, "creator<-")
+exportClasses(OOText, OOSpreadsheet, OOPresentation)
+
+export(getTables, getTitle, convertTable)
+
+

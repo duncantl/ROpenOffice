@@ -1,0 +1,25 @@
+Version 0.4-0
+
+  *   Functions, classes and documentation for meta data and document types.
+
+  *   Handle the case where a spreadsheet uses , as the decimal delimiter (e.g. French locale).
+      Reported by Felipe Martinez-Pastor.
+
+  *   Improved handling of empty cells, etc. and determination of row names and empty columns.
+
+Version 0.3-0
+  
+  *  Complete support for the different types of cell values, e.g. boolean, scientific, date, time, ...
+
+Version 0.2-1
+  
+  *  Added support for cell type "percentage". Thanks to Gong-Yi Liao.
+
+Version 0.2-0
+
+  *  Handle missing/empty columns in spreadsheets. Prompted by
+     Olivier Flores
+
+  *  Handle dates
+
+  *  Added stringsAsFactors parameter to read.ods()
