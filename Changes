@@ -1,3 +1,7 @@
+Version 0.4-1
+
+  *   Handle empty cells in a table by returning NA.
+
 Version 0.4-0
 
   *   Functions, classes and documentation for meta data and document types.

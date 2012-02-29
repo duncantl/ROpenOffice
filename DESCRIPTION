@@ -1,5 +1,5 @@
 Package: ROpenOffice
-Version: 0.4-0
+Version: 0.4-1
 Title: Basic reading of Open Office spreadsheets  and workbooks
 Description: This is a simple start to reading workbooks and spreadsheets from
   Open Office documents.  Sometime we will incorporate the ideas from the RExcelXML

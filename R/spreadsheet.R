@@ -210,6 +210,9 @@ function(types)
 convertCellValue =
 function(value, type)
 {
+  if(is.na(value) && is.na(type))
+    return(NA)
+  
   f = getColType(type)
   if(is.function(f))
      f(value)
